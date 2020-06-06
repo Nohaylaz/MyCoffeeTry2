@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "575422295676",
+    "firebase_url": "https://mycoffeetry-e3308.firebaseio.com",
+    "project_id": "mycoffeetry-e3308",
+    "storage_bucket": "mycoffeetry-e3308.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575422295676:android:50f3575788c6bebf7ee3f9",
+        "android_client_info": {
+          "package_name": "com.example.mycoffeetry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "575422295676-0ar2g0ffmr4hse4fh6jicdio1eihkgcl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhmy2M00UxqMgol6kMowJBVcnFSKJ7I_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "575422295676-0ar2g0ffmr4hse4fh6jicdio1eihkgcl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

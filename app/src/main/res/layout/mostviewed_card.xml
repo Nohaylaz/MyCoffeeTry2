@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="150dp"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="8dp"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/viewed_img"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:src="@drawable/veniziaice"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/viewed_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Venizia Ice"
+            android:layout_toRightOf="@+id/viewed_img"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"/>
+
+        <RatingBar
+            android:id="@+id/viewed_rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_below="@id/viewed_title"
+            android:layout_toRightOf="@id/viewed_img"
+            android:layout_marginLeft="10dp"
+            android:progressTint="@color/colorGold"
+            android:rating="4"/>
+
+        <TextView
+            android:id="@+id/viewed_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="jhgfnerjkgr jkgrherjg kjfgrej"
+            android:layout_below="@id/viewed_rate"
+            android:layout_toRightOf="@id/viewed_img"
+            android:padding="10dp"/>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
